@@ -2,6 +2,21 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+.mix {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+}
+.revwo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
 html,
 body,
 div,
@@ -174,11 +189,17 @@ html {
   width: 50%;
   font-size: 2.2rem;
   text-decoration: none;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 2rem;
-  margin-left: 6rem;
 }
-.navigate a {
+@media (max-width: 500px) {
+  .navigate {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+}
+a {
   text-decoration: none;
 }
 .experience {
@@ -188,64 +209,73 @@ html {
   margin-bottom: 2rem;
   color: dodgerblue;
 }
+@media (max-width: 500px) {
+  .experience {
+    margin-left: 2%;
+  }
+}
 p {
   margin-bottom: 2rem;
   justify-content: flex-start;
 }
 .job {
   display: flex;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-left: 5%;
   margin-bottom: 2rem;
-  color: black;
+  color: darkorchid;
 }
 .work {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
   font-size: 2rem;
-  margin-left: 7%;
   margin-bottom: 2rem;
   color: black;
+  width: 50%;
+  margin-left: 7%;
 }
 .review {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
   font-size: 2rem;
-  margin-left: 10%;
   margin-bottom: 2rem;
   color: black;
+  width: 40%;
+  margin-left: 9%;
 }
 .skill {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
   font-size: 2rem;
   margin-left: 7%;
   margin-bottom: 2rem;
   color: black;
+  width: 80%;
 }
 .contact {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
   font-size: 2rem;
   margin-left: 7%;
   margin-bottom: 2rem;
   color: black;
+  width: 50%;
 }
 .eclipse {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
   font-size: 2rem;
   margin-left: 7%;
   margin-bottom: 2rem;
   color: black;
+  width: 50%;
 }
 .container {
-  width: 85%;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
   margin-bottom: 2rem;
+  color: black;
+  width: 50%;
 }

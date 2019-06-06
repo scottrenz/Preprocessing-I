@@ -3,7 +3,25 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 @hicolor: dodgerblue;
+@half: 50%;
+.mix {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 2rem;
+	margin-left: 7%;
+	margin-bottom: 2rem;
+	color: black;
+}
+
+.revwo {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: black;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,12 +81,13 @@ html {
 	font-size: 1.6rem;
 	display: flex;
 	flex-wrap: wrap;
-	width: 50%;
+	width: @half;
 	justify-content: space-evenly;
 	margin-left: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 	color: darkblue;
+
 	p {
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -94,14 +113,21 @@ html {
 }
 .navigate{
 	display: flex;
-	width: 50%;
+	width: @half;
 	font-size: 2.2rem;
 	text-decoration: none;
 	justify-content: space-around;
 	margin-bottom: 2rem;
+	@media (max-width: 500px) {
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 2rem;
+
+	   }
+
+	}
 	a{
 		text-decoration: none;
-	}
 }
 .experience {
 	display: flex;
@@ -109,6 +135,10 @@ html {
 	margin-left: 15%;
 	margin-bottom: 2rem;
 	color: @hicolor;
+
+	@media (max-width: 500px) {
+		margin-left: 2%;
+	}	
 }
 p {
 	margin-bottom: 2rem;
@@ -116,53 +146,34 @@ p {
 }
 .job {
 	display: flex;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	margin-left: 5%;
 	margin-bottom: 2rem;
-	color: black;
+	color: darkorchid;
 }
 .work {
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	font-size: 2rem;
+    .revwo();
+	width: @half;
 	margin-left: 7%;
-	margin-bottom: 2rem;
-	color: black;
+}
+.review {
+    .revwo();
+	width: 40%;
+	margin-left: 9%;
 }
 .skill {
-	display: flex;
-	flex-wrap: wrap;
+    .mix();
 	width: 80%;
-	font-size: 2rem;
-	margin-left: 7%;
-	margin-bottom: 2rem;
-	color: black;
 }
 .contact {
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	font-size: 2rem;
-	margin-left: 7%;
-	margin-bottom: 2rem;
-	color: black;
+    .mix();
+	width: @half;
 }
 .eclipse {
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	font-size: 2rem;
-	margin-left: 7%;
-	margin-bottom: 2rem;
-	color: black;
+    .mix();
+	width: @half;
 }
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	font-size: 2rem;
-	margin-left: 7%;
-	margin-bottom: 2rem;
-	color: black;
-}
+    .mix();
+	width: @half;
+	}
