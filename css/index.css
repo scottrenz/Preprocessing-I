@@ -2,6 +2,14 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 .mix {
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +25,10 @@
   margin-bottom: 2rem;
   color: black;
 }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html,
 body,
 div,
@@ -152,6 +164,10 @@ body {
 html {
   font-size: 62.5%;
 }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 .someblock {
   font-size: 1.6rem;
   display: flex;
