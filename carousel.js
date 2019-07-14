@@ -30,7 +30,7 @@ divBtnL.classList.add('left-button')
 divBtnL.classList.add('xbtn')
 divBtnR.classList.add('right-button')
 divBtnR.classList.add('xbtn')
-img0.src="assets/css/images/joelvalve-LONPDGRFTew-unsplash.jpg"
+img0.src="assets/css/images/arun-sharma-6OcDbFay6dQ-unsplash.jpg"
 img1.src='assets/css/images/runnyrem-nsVF2lvlM3M-unsplash.jpg'
 img2.src='assets/css/images/tai-s-captures-Ctb5zhfWS00-unsplash.jpg'
 img3.src='assets/css/images/theo-rql-a4pyoiTdSqI-unsplash.jpg'
