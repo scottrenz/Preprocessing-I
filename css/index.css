@@ -1,1 +1,341 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+.mix {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+}
+.revwo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+.someblock {
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+  color: darkblue;
+}
+.someblock p {
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-block-color: black;
+  padding: 2px;
+}
+.walk {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin-left: 13%;
+  margin-bottom: 0.1rem;
+  justify-content: space-between;
+}
+.welcome {
+  display: flex;
+  font-size: 3.2rem;
+  margin-left: 15%;
+  margin-bottom: 2rem;
+  color: dodgerblue;
+}
+.navigate {
+  display: flex;
+  width: 50%;
+  font-size: 2.2rem;
+  text-decoration: none;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .navigate {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+}
+a {
+  text-decoration: none;
+}
+.experience {
+  display: flex;
+  font-size: 3.2rem;
+  margin-left: 15%;
+  margin-bottom: 2rem;
+  color: dodgerblue;
+}
+@media (max-width: 500px) {
+  .experience {
+    margin-left: 2%;
+  }
+}
+p {
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+}
+.job {
+  display: flex;
+  font-size: 2.2rem;
+  margin-left: 5%;
+  margin-bottom: 2rem;
+  color: darkorchid;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  width: 50%;
+  margin-left: 7%;
+}
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  width: 40%;
+  margin-left: 9%;
+}
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+  width: 80%;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+  width: 50%;
+}
+.eclipse {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+  width: 50%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-left: 7%;
+  margin-bottom: 2rem;
+  color: black;
+  width: 50%;
+}
+.carousel {
+  witdh: 100%;
+  display: flex;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+@media (min-width: 1200px) {
+  .carousel {
+    width: 1200px;
+  }
+}
+.carousel .left-button,
+.carousel .right-button {
+  display: flex;
+  background-color: black;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.carousel .left-button:hover,
+.carousel .right-button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.carousel .left-button {
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.carousel .right-button {
+  top: 50%;
+  right: 25px;
+  transform: translate(0, -50%);
+}
+.carousel img {
+  width: 100%;
+  display: none;
+}
